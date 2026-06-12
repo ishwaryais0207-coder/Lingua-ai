@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Translator from "./pages/Translator";
 import Generator from "./pages/Generator";
-
+import {Link} from "React-router-dom";
 function App() {
   return (
     <BrowserRouter>
@@ -14,8 +14,12 @@ function App() {
 
   <div className="flex gap-6">
     <Link to="/">Home</Link>
-    <Link to="/translator">Translator</Link>
-    <Link to="/generator">Generator</Link>
+    <Link to="/translator">
+    Open Translator
+    </Link>
+    <Link to="/generator">
+    Open Generator
+    </Link>
   </div>
 </nav>
 

@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-600 to-purple-700 text-white flex items-center justify-center">
@@ -13,19 +14,19 @@ function Home() {
         </p>
 
         <div className="flex justify-center gap-4">
-          <a
-            href="/translator"
-            className="bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold shadow-lg"
-          >
-            Open Translator
-          </a>
+        <Link
+  to="/translator"
+  className="bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold shadow-lg"
+>
+  Open Translator
+</Link>
 
-          <a
-            href="/generator"
-            className="bg-purple-900 px-6 py-3 rounded-lg font-semibold shadow-lg"
-          >
-            Open Generator
-          </a>
+          <Link
+  to="/generator"
+  className="bg-purple-900 px-6 py-3 rounded-lg font-semibold shadow-lg"
+>
+  Open Generator
+</Link>
         </div>
       </div>
     </div>
