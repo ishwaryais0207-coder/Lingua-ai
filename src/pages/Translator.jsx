@@ -79,4 +79,4 @@ function Translator() {
 </div>
   );
 }
-export default Translator
+export default Translator;
