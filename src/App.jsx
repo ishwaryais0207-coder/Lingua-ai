@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Translator from "./pages/Translator";
 import Generator from "./pages/Generator";
-import {Link} from "React-router-dom";
 function App() {
   return (
     <BrowserRouter>
